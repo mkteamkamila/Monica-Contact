@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save Monica's Contact</title>
+  <style>
+    body { margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; background: #1d3a4a; font-family: Arial, sans-serif; color: white; text-align: center; padding: 20px; box-sizing: border-box; }
+    h1 { color: #bea17e; font-size: 1.4em; margin-bottom: 8px; }
+    p { color: #aaa; font-size: 0.9em; margin-bottom: 30px; }
+    a { background: #bea17e; color: #1d3a4a; padding: 14px 32px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Monica Villacis</h1>
+  <p>MK Team | Brickell Brokers</p>
+  <a href="monica_villacis.vcf" download="monica_villacis.vcf">📲 Save Contact</a>
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        window.location.href = "monica_villacis.vcf";
+      }, 800);
+    };
+  </script>
+</body>
+</html>
